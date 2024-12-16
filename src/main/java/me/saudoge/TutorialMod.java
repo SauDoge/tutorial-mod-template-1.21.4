@@ -1,6 +1,7 @@
 package me.saudoge;
 
 import me.saudoge.block.ModBlocks;
+import me.saudoge.item.ModItemGroups;
 import me.saudoge.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -24,5 +25,6 @@ public class TutorialMod implements ModInitializer {
 		LOGGER.info("Hello Fabric world!");
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModItemGroups.registerItemGroups();
 	}
 }
